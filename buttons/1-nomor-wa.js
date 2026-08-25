@@ -2,7 +2,7 @@
    Baris yang di-comment boleh dihapus / diaktifkan. */
 
 export default {
-  judul  : "Nomor wa denji",
+  judul  : "Whastapp",
   url    : "https://wa.me/6285179956361",
   gambar : "",
 
