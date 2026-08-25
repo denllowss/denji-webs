@@ -1,0 +1,29 @@
+/* ============================================================================
+   TEMPLATE TOMBOL — file ini TIDAK ikut tampil (bukan .js).
+
+   CARA MEMBUAT TOMBOL BARU:
+     1. Duplikat file ini
+     2. Beri nama:  3-nama-tombol.js   (angka = urutan tampil, boleh loncat)
+     3. Buka dan ganti isinya
+     4. Simpan — halaman langsung ikut berubah saat `npm run dev` jalan,
+        dan otomatis ke-deploy saat di-push ke GitHub (Vercel).
+
+   URUTAN TOMBOL = urutan nama file.
+   Kalau tombolnya lebih dari 9, pakai 01-, 02-, ... 10- biar urutnya benar.
+
+   HAPUS TOMBOL = hapus filenya saja.
+   ============================================================================ */
+
+export default {
+  judul  : "Judul tombol",              // wajib
+  url    : "https://link-tujuan.com",   // wajib
+
+  // ---- opsional, boleh dihapus ----
+  gambar    : "",          // nama gambar dari config.js (contoh: "link1"),
+                           // atau langsung link/file gambar. Kosong = tanpa foto.
+  subjudul  : "",          // tulisan kecil di bawah judul
+  ikon      : "",          // instagram, tiktok, youtube, whatsapp, pinterest,
+                           // linkedin, email, facebook, x, website
+  tombol    : "",          // teks tombol kecil di dalam kartu
+  embed     : false,       // true = kartu jadi tinggi
+};
