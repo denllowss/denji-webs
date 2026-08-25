@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>denji</title>
+<meta name="description" content="apayaaaa">
+
+<!-- ============================================================================
+     LINK PREVIEW (Open Graph / Twitter Card)
+     ----------------------------------------------------------------------------
+     Fungsi: saat link halaman ini dikirim lewat WhatsApp, Telegram, LINE,
+     Discord, Facebook, X/Twitter, dll., akan muncul kartu pratinjau (judul +
+     deskripsi + gambar) — bukan sekadar tautan kosong.
+
+     CARA KERJA "OTOMATIS":
+     - Skrip di bawah (BAGIAN 7) menyalin judul & bio dari BAGIAN 2 dan foto
+       dari BAGIAN 1 ke tag meta ini setiap halaman dibuka, jadi semua konsisten.
+     - PENTING: mesin pratinjau (WhatsApp/Facebook/Twitter/Telegram) TIDAK
+       menjalankan JavaScript. Tag statis di bawah inilah yang mereka baca.
+       Jadi jika isi BAGIAN 1 / BAGIAN 2 diubah dan kamu mau pratinjau ikut
+       berubah, ubah juga 3 tag berlabel "EDIT" di bawah ini.
+
+     GAMBAR PRATINJAU:
+     - Wajib alamat internet lengkap (https://...) — file lokal / base64 tidak
+       akan tampil.
+     - Ukuran terbaik 1200x630 px. Ada file og-image.png siap pakai di folder
+       yang sama (unggah dulu ke freeimage.host lalu tempel linknya).
+     - Setelah mengganti gambar/judul, minta platform menyegarkan cache:
+         * Facebook : https://developers.facebook.com/tools/debug/
+         * X/Twitter: https://cards-dev.twitter.com/validator
+         * WhatsApp : kirim ulang link-nya (atau tambah ?v=2 di belakang URL)
+         * Telegram : kirim ulang link-nya (atau tambah ?v=2 di belakang URL)
+     ============================================================================ -->
+
+<!-- EDIT 1 — judul & deskripsi pratinjau (salin dari BAGIAN 2) -->
+<meta property="og:title" content="Denji Web">
+<meta property="og:description" content="hobi ngedit, kicaw kicaw kicaw mania">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Denji Web">
+<meta property="og:locale" content="id_ID">
+
+<!-- EDIT 2 — alamat web ini. Kosongkan agar otomatis memakai URL halaman. -->
+<meta property="og:url" content="">
+
+<!-- EDIT 3 — gambar pratinjau (harus https://, terbaik 1200x630). -->
+<meta property="og:image" content="https://i.8upload.com/image/f891922531d80797/proyek-baru-30-68370c5.png">
+<meta property="og:image:alt" content="denji">
+
+<!-- Kartu pratinjau untuk X/Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Denji Web">
+<meta name="twitter:description" content="hobi ngedit, kicaw kicaw kicaw mania">
+<meta name="twitter:image" content="https://i.8upload.com/image/f891922531d80797/proyek-baru-30-68370c5.png">
+<meta name="theme-color" content="#c8d97c">
+<meta name="color-scheme" content="light">
+<!-- Dukungan platform: iPhone (tambah ke layar utama), Android, dsb -->
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="denji">
+<meta name="format-detection" content="telephone=no">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%23c8d97c'/%3E%3Ctext x='50' y='70' font-family='Arial, Helvetica, sans-serif' font-size='62' font-weight='700' text-anchor='middle' fill='%231e2330'%3ED%3C/text%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<!-- Gambar dimuat dari layanan ini: sambungkan lebih cepat di HP -->
+<link rel="preconnect" href="https://iili.io">
+<link rel="preconnect" href="https://i.8upload.com">
+<!-- Font Inter ditanam di dalam file ini (lihat @font-face di bagian style) -->
+</head>
+
+<a href="#content" class="skip-link">Lewati ke konten</a>
+<div id="app"></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script type="module" src="/main.js"></script>
+
+</body>
+</html>
